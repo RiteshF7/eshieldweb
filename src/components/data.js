@@ -1,60 +1,59 @@
 import {
-  FaceSmileIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
-  DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  LockClosedIcon,
+  MapPinIcon,
+  PhoneIcon,
+  BellAlertIcon,
+  ShieldCheckIcon,
+  CurrencyDollarIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Advanced Device Control & Security",
+  desc: "Take control of your EMI collections with our comprehensive device management system that ensures payment compliance while maintaining professional relationships with customers.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Smart Device Locking",
+      desc: "Remotely manage device access based on payment status with our secure locking system.",
+      icon: <LockClosedIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Real-time Location Tracking",
+      desc: "Monitor device locations in real-time for enhanced asset protection and security.",
+      icon: <MapPinIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Contact & Call Management",
+      desc: "Access and manage device contacts and control call functionality based on payment status.",
+      icon: <PhoneIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Intelligent Payment Reminders",
+  desc: "Keep your customers informed and up-to-date with our multi-channel reminder system that ensures timely payments and reduces defaults.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "Smart Notifications",
+      desc: "Automated payment reminders through screen messages and audio alerts to ensure payment awareness.",
+      icon: <BellAlertIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Data Protection",
+      desc: "Secure data management capabilities with remote wipe options for maximum security.",
+      icon: <ShieldCheckIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Payment Analytics",
+      desc: "Track collection efficiency and payment patterns with detailed analytics and reporting.",
+      icon: <CurrencyDollarIcon />,
     },
   ],
 };
-
 
 export {benefitOne, benefitTwo};
