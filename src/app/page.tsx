@@ -14,7 +14,7 @@ export default function Home() {
         <Container>
             <Hero/>
             <SectionTitle
-                preTitle="Nextly Benefits"
+                preTitle="EMI Shield Benefits"
                 title=" Why should you use our app"
             >
                 Streamline your EMI collections with our comprehensive device management solution. Protect your business
@@ -34,22 +34,22 @@ export default function Home() {
 
             <Video videoId="fZ0D0cnR88E"/>
 
-            <SectionTitle
-                preTitle="Testimonials"
-                title="Here's what our customers said"
-            >
-                Testimonials is a great way to increase the brand trust and awareness.
-                Use this section to highlight your popular customers.
-            </SectionTitle>
+            {/*<SectionTitle*/}
+            {/*    preTitle="Testimonials"*/}
+            {/*    title="Here's what our customers said"*/}
+            {/*>*/}
+            {/*    Testimonials is a great way to increase the brand trust and awareness.*/}
+            {/*    Use this section to highlight your popular customers.*/}
+            {/*</SectionTitle>*/}
 
-            <Testimonials/>
+            {/*<Testimonials/>*/}
 
-            <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-                Answer your customers possible questions here, it will increase the
-                conversion rate as well as support or chat requests.
-            </SectionTitle>
+            {/*<SectionTitle preTitle="FAQ" title="Frequently Asked Questions">*/}
+            {/*    Answer your customers possible questions here, it will increase the*/}
+            {/*    conversion rate as well as support or chat requests.*/}
+            {/*</SectionTitle>*/}
 
-            <Faq/>
+            {/*<Faq/>*/}
             <Cta/>
         </Container>
     );
