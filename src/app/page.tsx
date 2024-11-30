@@ -28,7 +28,7 @@ export default function Home() {
                 preTitle="Watch a video"
                 title="Learn how to use our app"
             >
-                Your comprehensive EMI payment management solution. Let's walk through how to get
+                Your comprehensive EMI payment management solution. Let&apos; walk through how to get
                 your business started in just a few simple steps.
             </SectionTitle>
 
