@@ -18,7 +18,7 @@ const benefitOne = {
     {
       title: "Smart Device Locking",
       desc: "Remotely manage device access based on payment status with our secure locking system.",
-      icon: <LockClosedIcon />,
+      icon: <LockClosedIcon/>,
     },
     {
       title: "Real-time Location Tracking",
