@@ -10,12 +10,12 @@ export const Cta = () => {
                     <h2 className="text-2xl font-medium lg:text-3xl">
                         Start securing your EMI payments today with SecureEMI - where technology meets trust. </h2>
                     <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-                        Experience the power of automated payment management. Get started with a free 30-day trial - no
+                        Experience the power of automated payment management. Get started with a free 30-day trial along with 3 free tokens- no
                         credit card required. </p>
                 </div>
                 <div className="flex-shrink-0 w-full text-center lg:w-auto">
                     <a
-                        href="https://shieldserver-00on.onrender.com/download/shieldshopapk"
+                        href="https://shieldserver-00on.onrender.com/api/download/emishield"
                         target="_blank"
                         rel="noopener"
                         className="inline-block py-3 mx-auto text-lg font-medium text-center text-black bg-white rounded-md px-7 lg:px-10 lg:py-5 "
