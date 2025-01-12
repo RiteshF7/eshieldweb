@@ -24,15 +24,17 @@ export default function Home() {
             <Benefits data={benefitOne}/>
             <Benefits imgPos="right" data={benefitTwo}/>
 
-            <SectionTitle
-                preTitle="Watch a video"
-                title="Learn how to use our app"
-            >
-                Your comprehensive EMI payment management solution. Let&apos; walk through how to get
-                your business started in just a few simple steps.
-            </SectionTitle>
 
-            <Video videoId="fZ0D0cnR88E"/>
+            {/*<SectionTitle*/}
+            {/*    preTitle="Watch a video"*/}
+            {/*    title="Learn how to use our app"*/}
+            {/*>*/}
+            {/*    Your comprehensive EMI payment management solution. Let&apos; walk through how to get*/}
+            {/*    your business started in just a few simple steps.*/}
+            {/*</SectionTitle>*/}
+
+
+            {/*<Video videoId="fZ0D0cnR88E"/>*/}
 
             {/*<SectionTitle*/}
             {/*    preTitle="Testimonials"*/}
